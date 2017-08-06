@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="HTML INTRO ">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> jQuery Photo App </title>
+
+    <!-- BASE CSS -->
+    <link rel="stylesheet" href="./styles/base/reset.css">
+
+    <!-- STYLES -->
+    <link rel="stylesheet" href="./styles/views/home.css">
+    <link rel="stylesheet" href="./styles/base/temp.css">
+
+</head>
+<body>
+<main role="main">
+    <div class="cover__slider js-cover">
+        <!-- == START OF HEADER 01 ==-->
+        <nav class="header header--01">
+            <div class="container header__container">
+                <div class="header__left_box"><a href="#" title="Home" class="header__logo_box"><img src="img/etc/logo--circle--white.svg" alt="Phoenix UI kit logo" class="header__logo_img"></a></div>
+                <div class="header__center_box">
+                    <ul class="header__menu_list header__item--desktop">
+                        <li class="header__menu_item"><a href="#" class="header__menu_link header__menu_link--white">about</a></li>
+                        <li class="header__menu_item"><a href="#" class="header__menu_link header__menu_link--white">tour</a></li>
+                        <li class="header__menu_item"><a href="#" class="header__menu_link header__menu_link--white">pricing</a></li>
+                        <li class="header__menu_item"><a href="#" class="header__menu_link header__menu_link--white">blog</a></li>
+                        <li class="header__menu_item"><a href="#" class="header__menu_link header__menu_link--white">contact</a></li>
+                    </ul>
+                </div>
+                <div class="header__right_box">
+                    <ul class="social header__item--desktop">
+                        <li class="social__item social__item--left_margin"><a href="#" title="Say hello in Twitter!" class="social__link social__link--twitter"></a></li>
+                        <li class="social__item social__item--left_margin"><a href="#" title="Say hello in Facebook!" class="social__link social__link--facebook"></a></li>
+                        <li class="social__item social__item--left_margin"><a href="#" title="Say hello in G+!" class="social__link social__link--g_plus"></a></li>
+                    </ul>
+                    <button type="button" data-menu-index="01" class="header__burger_button js-open-menu header__item--mobile"></button>
+                </div>
+            </div>
+        </nav>
+        <!-- == END OF HEADER 01 ==-->
+        <div class="container cover__slider__arrows_box">
+            <button type="button" class="cover__slider__arrow cover__slider__arrow--left js-slider-prev-arrow"></button>
+            <button type="button" class="cover__slider__arrow cover__slider__arrow--right js-slider-next-arrow"></button>
+        </div>
+        <div data-slick="{&quot;slidesToShow&quot;: 1, &quot;slidesToScroll&quot;: 1, &quot;fade&quot;: true, &quot;prevArrow&quot; : &quot;.js-slider-prev-arrow&quot;, &quot;nextArrow&quot;: &quot;.js-slider-next-arrow&quot;}" class="cover__slider__content_box js-slider">
+            <div style="background-image: url(img/bg/bg--acne-guy.jpg)" class="cover cover--17">
+                <div class="container">
+                    <div class="cover__content_box--17">
+                        <h2 class="cover__title--17"><span class="cover__title_text--17">The New Era of&nbsp;<br>Digital</span></h2><a href="#" class="button button--border-white">read story</a>
+                    </div>
+                </div>
+            </div>
+            <div style="background-image: url(img/bg/bg--skaters-bright.jpg)" class="cover cover--17">
+                <div class="container">
+                    <div class="cover__content_box--17">
+                        <h2 class="cover__title--17"><span class="cover__title_text--17">Going to the bliss now</span></h2><a href="#" class="button button--border-white">read story</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</main>
+
+
+
+
+
+
+
+<!-- Add jQuery -->
+
+<script src="https://code.jquery.com/jquery-2.2.3.js"   integrity="sha256-laXWtGydpwqJ8JA+X9x2miwmaiKhn8tVmOVEigRNtP4="   crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+
+
+<!-- Add Script Tags -->
+
+<script src="js/main.js"></script>
+
+</body>
+</html>

@@ -75,3 +75,17 @@
     background: #000;
     margin-right:10px;;
 }
+
+
+.none {
+  /*opacity: .5;*/
+}
+
+.slide-cover {
+  /*opacity: 0;*/
+  /*transform: translateY(30%) translateX(20%);*/
+}
+.slide-menu {
+  transform: translateY(0) !important;
+  opacity: .8 !important;
+}
